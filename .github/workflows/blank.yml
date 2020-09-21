@@ -24,7 +24,7 @@ jobs:
       - name: Run a one-line script
         run: |
           echo EDITED!
-          env
+          # env
           echo "- in ${{ github.event }}!"
         if: github.event_name == 'pull_request'
 
